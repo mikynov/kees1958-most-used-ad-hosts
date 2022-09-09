@@ -1,5 +1,10 @@
 name: Most used Ad hosts
-on: [push]
+
+on:
+  push:
+  schedule:
+    # On every Friday at 21:22 UTC
+    - cron: "22 21 * * 5"
 
 env:
   GH_TOKEN: "${{ secrets.PAT_GH_GIST }}"
@@ -31,7 +36,7 @@ jobs:
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
           git config user.name "GitHub Actions Bot"
-          git config user.email "<>"          
+          git config user.email "<>"
           git add "${HOSTS_FILE}"
           git commit --message "Updated from: ${latest_sha}"
           git push origin master
@@ -41,7 +46,7 @@ jobs:
           ./.github/scripts/gistdb.sh update "latest.json" "sha" "${latest_sha}"
       - name: "☑️ Done"
         run: |
-          echo "Latest SHA: ${latest_sha}" 
+          echo "Latest SHA: ${latest_sha}"
           echo "Saved SHA: ${saved_sha}"
           if [[ "${latest_sha}" == "${saved_sha}" ]]; then
             echo "🆒 Up-to-date!"
