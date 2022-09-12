@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US+most_used_ad_and_tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/cc062f1d32193fa3aeda2647dd2fefa0c4e4d3ab/EU_US%2Bmost_used_ad_and_tracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/5401f03d80b4b1ed8b355a3a6e8c552aafa2679e/EU_US%2Bmost_used_ad_and_tracking_networks.txt
 #
-# Date: 2022-09-09T14:21:27+00:00
-# Number of converted hosts: 5359
+# Date: 2022-09-12T21:14:46+00:00
+# Number of converted hosts: 5355
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US%2Bmost_used_ad_and_tracking_networks.hosts
 #
@@ -1961,7 +1961,6 @@
 0.0.0.0 goadservices.com
 0.0.0.0 goaltraffic.com
 0.0.0.0 goatcounter.com
-0.0.0.0 gobal.adserver.yahoo.com
 0.0.0.0 go-clicks.de
 0.0.0.0 godatafeed.com
 0.0.0.0 godhat.com
@@ -5265,9 +5264,6 @@
 0.0.0.0 xxxjmp.com
 0.0.0.0 xxxwebtraffic.com
 0.0.0.0 xyztraffic.com
-0.0.0.0 yadro.ru
-0.0.0.0 yahoo.co.jp
-0.0.0.0 yahoo.com
 0.0.0.0 yamanoha.com
 0.0.0.0 yandex.ru
 0.0.0.0 yandexadexchange.net
