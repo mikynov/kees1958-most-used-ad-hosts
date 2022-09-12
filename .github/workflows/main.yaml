@@ -38,7 +38,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add "${HOSTS_FILE}"
-          git commit --message "Updated from: ${latest_sha}"
+          git commit --message "Updated from ${latest_sha}"
           git push origin master
       - name: "🔼 Storing the latest SHA"
         if: ${{ env.latest_sha != env.saved_sha }}
