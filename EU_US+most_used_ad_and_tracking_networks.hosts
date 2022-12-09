@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US+most_used_ad_and_tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/fd76775b4a2aa739f14acac59a5fea43dc9ee1a0/EU_US%2Bmost_used_ad_and_tracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/277d15cf5bd17cd63f4fbb3e4c6df540003be0fc/EU_US%2Bmost_used_ad_and_tracking_networks.txt
 #
-# Date: 2022-10-28T21:32:43+00:00
-# Number of converted hosts: 5272
+# Date: 2022-12-09T21:26:32+00:00
+# Number of converted hosts: 5274
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US%2Bmost_used_ad_and_tracking_networks.hosts
 #
@@ -792,6 +792,7 @@
 0.0.0.0 bionicclick.com
 0.0.0.0 bitads.net
 0.0.0.0 bitmedia.io
+0.0.0.0 bitmovin.com
 0.0.0.0 bitrix.info
 0.0.0.0 bizible.com
 0.0.0.0 bizibly.com
@@ -4229,6 +4230,7 @@
 0.0.0.0 snitcher.com
 0.0.0.0 snoobi.com
 0.0.0.0 snowsignal.com
+0.0.0.0 snplow.net
 0.0.0.0 snssdk.com
 0.0.0.0 so.com
 0.0.0.0 soapps.net
