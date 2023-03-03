@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US+most_used_ad_and_tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/f19a23386cc0b57feed038954262245302dd4919/EU_US%2Bmost_used_ad_and_tracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/d1eb085173423f97cdff6f4eec2cd35a9163ab9d/EU_US%2Bmost_used_ad_and_tracking_networks.txt
 #
-# Date: 2023-02-24T21:25:26+00:00
-# Number of converted hosts: 6427
+# Date: 2023-03-03T21:25:44+00:00
+# Number of converted hosts: 6425
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US%2Bmost_used_ad_and_tracking_networks.hosts
 #
@@ -1800,7 +1800,6 @@
 0.0.0.0 delivr.com
 0.0.0.0 deloittedigital.com
 0.0.0.0 deloo.de
-0.0.0.0 delta.com
 0.0.0.0 deltax.com
 0.0.0.0 demand.supply
 0.0.0.0 demandbase.com
@@ -2222,7 +2221,6 @@
 0.0.0.0 fanplayr.com
 0.0.0.0 fast-adv.it
 0.0.0.0 fastanalytic.com
-0.0.0.0 fastbooking.com
 0.0.0.0 fastcounter.de
 0.0.0.0 fastlane.rubiconproject.com
 0.0.0.0 fastly-analytics.com
