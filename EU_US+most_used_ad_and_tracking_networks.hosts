@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US+most_used_ad_and_tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/a14d0b1ff82af50030253dd129d563decf3e8b06/EU_US%2Bmost_used_ad_and_tracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/d53f21134e65c860ce2aeba8604fd562ec97db2f/EU_US%2Bmost_used_ad_and_tracking_networks.txt
 #
-# Date: 2023-04-14T21:24:27+00:00
-# Number of converted hosts: 5793
+# Date: 2023-05-12T21:24:15+00:00
+# Number of converted hosts: 5813
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US%2Bmost_used_ad_and_tracking_networks.hosts
 #
@@ -415,6 +415,7 @@
 0.0.0.0 ad-sniper.com
 0.0.0.0 adsoftware.com
 0.0.0.0 adsoldier.com
+0.0.0.0 adsolutions.com
 0.0.0.0 ad-souk.com
 0.0.0.0 ad-space.net
 0.0.0.0 adspace.ro
@@ -697,6 +698,7 @@
 0.0.0.0 arrivalist.com
 0.0.0.0 arrowpushengine.com
 0.0.0.0 arsdev.net
+0.0.0.0 artefact.com
 0.0.0.0 artefact.is
 0.0.0.0 artfut.com
 0.0.0.0 artofclick.com
@@ -788,6 +790,7 @@
 0.0.0.0 az7t8.com
 0.0.0.0 azalead.com
 0.0.0.0 azera-s014.com
+0.0.0.0 azerion.com
 0.0.0.0 azetklik.sk
 0.0.0.0 azfront.com
 0.0.0.0 azointel.com
@@ -896,7 +899,9 @@
 0.0.0.0 bidphysics.com
 0.0.0.0 bidr.io
 0.0.0.0 bidsimulator.com
+0.0.0.0 bidstack.com
 0.0.0.0 bidstreamserver.com
+0.0.0.0 bidswitch.com
 0.0.0.0 bidswitch.net
 0.0.0.0 bidtheatre.com
 0.0.0.0 bidtrk.com
@@ -941,6 +946,7 @@
 0.0.0.0 blockchain4media.com
 0.0.0.0 blockdetector.org
 0.0.0.0 blockmetrics.com
+0.0.0.0 blockthrough.com
 0.0.0.0 blog104.com
 0.0.0.0 blogads.com
 0.0.0.0 bloggeramt.de
@@ -1090,6 +1096,7 @@
 0.0.0.0 cannavu.net
 0.0.0.0 canopylabs.com
 0.0.0.0 caphyon-analytics.com
+0.0.0.0 captifytechnologies.com
 0.0.0.0 captivate.ai
 0.0.0.0 captora.com
 0.0.0.0 capturehighered.net
@@ -1116,6 +1123,7 @@
 0.0.0.0 catad5959.com
 0.0.0.0 cauly.net
 0.0.0.0 cav.ai
+0.0.0.0 cavai.com
 0.0.0.0 cbdatatracker.com
 0.0.0.0 cben1.net
 0.0.0.0 cbmall.com
@@ -1560,6 +1568,7 @@
 0.0.0.0 delivr.com
 0.0.0.0 deloittedigital.com
 0.0.0.0 deloo.de
+0.0.0.0 deltaprojects.com
 0.0.0.0 deltax.com
 0.0.0.0 demand.supply
 0.0.0.0 demandbase.com
@@ -1921,6 +1930,7 @@
 0.0.0.0 extremetracking.com
 0.0.0.0 extstat.info
 0.0.0.0 eyein.com
+0.0.0.0 eyeota.com
 0.0.0.0 eyeota.net
 0.0.0.0 eyereturn.com
 0.0.0.0 eyereturnmarketing.com
@@ -2009,8 +2019,8 @@
 0.0.0.0 flirtymania.plus
 0.0.0.0 flixbus.com
 0.0.0.0 flixcar.com
-0.0.0.0 flixfacts.com
 0.0.0.0 flixcdn.com
+0.0.0.0 flixfacts.com
 0.0.0.0 flixsyndication.net
 0.0.0.0 flocktory.com
 0.0.0.0 flowgo.com
@@ -2322,6 +2332,7 @@
 0.0.0.0 havamedia.net
 0.0.0.0 havasedge.com
 0.0.0.0 haveamint.com
+0.0.0.0 hawk-tech.io
 0.0.0.0 hbfstech.com
 0.0.0.0 hdmtools.com
 0.0.0.0 he2d.com
@@ -2658,6 +2669,7 @@
 0.0.0.0 ip193.cn
 0.0.0.0 iperceptions.com
 0.0.0.0 ipinyou.com
+0.0.0.0 iponweb.com
 0.0.0.0 ipredictive.com
 0.0.0.0 ipro.com
 0.0.0.0 iprospect.com
@@ -2950,6 +2962,7 @@
 0.0.0.0 liveperson.com
 0.0.0.0 liverail.com
 0.0.0.0 liveramp.com
+0.0.0.0 liveramp.fr
 0.0.0.0 livere.me
 0.0.0.0 livesegmentservice.com
 0.0.0.0 livesession.io
@@ -3136,6 +3149,7 @@
 0.0.0.0 medialab.group
 0.0.0.0 medialabs.es
 0.0.0.0 medialytics.com
+0.0.0.0 mediamath.com
 0.0.0.0 mediamind.com
 0.0.0.0 median.eu
 0.0.0.0 medianet.com
@@ -3292,6 +3306,7 @@
 0.0.0.0 mockingfish.com
 0.0.0.0 modellbau-universe.de
 0.0.0.0 mogreet.com
+0.0.0.0 moloco.com
 0.0.0.0 molocoads.com
 0.0.0.0 molodgytot.biz
 0.0.0.0 momently.com
@@ -3505,6 +3520,7 @@
 0.0.0.0 nextag.com
 0.0.0.0 nextlevel.sl
 0.0.0.0 nextperformance.com
+0.0.0.0 nextroll.com
 0.0.0.0 nextstat.com
 0.0.0.0 nexus-soft.org
 0.0.0.0 ngacm.com
@@ -3621,6 +3637,7 @@
 0.0.0.0 onestat.com
 0.0.0.0 onestatfree.com
 0.0.0.0 onet.pl
+0.0.0.0 onetag.com
 0.0.0.0 onetag-sys.com
 0.0.0.0 oneupweb.com
 0.0.0.0 onewaylinkexchange.net
@@ -4972,6 +4989,7 @@
 0.0.0.0 td573.com
 0.0.0.0 tdstats.com
 0.0.0.0 teadma.com
+0.0.0.0 teads.com
 0.0.0.0 teads.tv
 0.0.0.0 tealium.com
 0.0.0.0 tealiumiq.com
@@ -5226,6 +5244,7 @@
 0.0.0.0 triggit.com
 0.0.0.0 trilogyed.com
 0.0.0.0 trinitymedia.ai
+0.0.0.0 tritondigital.com
 0.0.0.0 trix.net
 0.0.0.0 trk.pinterest.com
 0.0.0.0 trkjmp.com
@@ -5710,6 +5729,7 @@
 0.0.0.0 yhmg.com
 0.0.0.0 yieldbot.com
 0.0.0.0 yieldify.com
+0.0.0.0 yieldlab.com
 0.0.0.0 yieldlab.net
 0.0.0.0 yieldlift.com
 0.0.0.0 yieldlove.com
