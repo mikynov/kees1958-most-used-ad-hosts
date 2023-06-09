@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US+most_used_ad_and_tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/d53f21134e65c860ce2aeba8604fd562ec97db2f/EU_US%2Bmost_used_ad_and_tracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/ce1aac0915277ddf938dbdfe7e98ab5367b4d507/EU_US%2Bmost_used_ad_and_tracking_networks.txt
 #
-# Date: 2023-05-12T21:24:15+00:00
-# Number of converted hosts: 5813
+# Date: 2023-06-09T21:24:16+00:00
+# Number of converted hosts: 5820
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US%2Bmost_used_ad_and_tracking_networks.hosts
 #
@@ -1028,6 +1028,7 @@
 0.0.0.0 brickandmobile.com
 0.0.0.0 bridgevine.com
 0.0.0.0 brightcom.com
+0.0.0.0 brightcove.com
 0.0.0.0 brightedge.com
 0.0.0.0 brightfunnel.com
 0.0.0.0 brightinfo.com
@@ -1132,6 +1133,7 @@
 0.0.0.0 cccpmo.com
 0.0.0.0 ccgateway.net
 0.0.0.0 ccscserver.com
+0.0.0.0 cdctwm.com
 0.0.0.0 cdnanalytics.xyz
 0.0.0.0 cdnmaster.com
 0.0.0.0 cdn-net.com
@@ -1187,6 +1189,7 @@
 0.0.0.0 cleananalytics.com
 0.0.0.0 clearbit.com
 0.0.0.0 clearbitjs.com
+0.0.0.0 clearonclick.com
 0.0.0.0 cleveritics.com
 0.0.0.0 clevernt.com
 0.0.0.0 clevi.com
@@ -1722,6 +1725,7 @@
 0.0.0.0 eazy.de
 0.0.0.0 e-bannerx.com
 0.0.0.0 e-bannery.cz
+0.0.0.0 easyvids.space
 0.0.0.0 ebayadvertising.com
 0.0.0.0 ebocornac.com
 0.0.0.0 ebtrk1.com
@@ -1892,6 +1896,7 @@
 0.0.0.0 e-webtrack.net
 0.0.0.0 exactag.com
 0.0.0.0 exapxl.de
+0.0.0.0 excellent-vids.online
 0.0.0.0 exchange.bg
 0.0.0.0 exchangead.com
 0.0.0.0 exchangeclicksonline.com
@@ -2206,7 +2211,6 @@
 0.0.0.0 gezinti.com
 0.0.0.0 gfk.com
 0.0.0.0 gglscr.online
-0.0.0.0 ggpht.com
 0.0.0.0 ghtinc.com
 0.0.0.0 giantmedia.com
 0.0.0.0 giddyuptrk.com
@@ -2234,7 +2238,6 @@
 0.0.0.0 gmads.net
 0.0.0.0 gnetwork.me
 0.0.0.0 gnpge.com
-0.0.0.0 go.com
 0.0.0.0 go.pl
 0.0.0.0 go2link.net
 0.0.0.0 goadservices.com
@@ -4042,6 +4045,7 @@
 0.0.0.0 ptp123.com
 0.0.0.0 ptrk-wn.com
 0.0.0.0 pt-trx.com
+0.0.0.0 ptwmstcnt.com
 0.0.0.0 pub.network
 0.0.0.0 pubdirecte.com
 0.0.0.0 pubdream.com
@@ -4396,6 +4400,7 @@
 0.0.0.0 runads.com
 0.0.0.0 runtnc.net
 0.0.0.0 rvty.net
+0.0.0.0 rxeosevsso.com
 0.0.0.0 rythmxchange.com
 0.0.0.0 rztrkr.com
 0.0.0.0 s2d6.com
@@ -5390,6 +5395,7 @@
 0.0.0.0 valuesponsor.com
 0.0.0.0 vantage-media.net
 0.0.0.0 vbanalytics.com
+0.0.0.0 vcmdiawe.com
 0.0.0.0 vdna-assets.com
 0.0.0.0 vdoing.com
 0.0.0.0 ve.com
@@ -5689,6 +5695,7 @@
 0.0.0.0 xhit.com
 0.0.0.0 xiti.com
 0.0.0.0 xius.com
+0.0.0.0 xlirdr.com
 0.0.0.0 xlovecam.com
 0.0.0.0 xmladed.com
 0.0.0.0 xpanama.net
