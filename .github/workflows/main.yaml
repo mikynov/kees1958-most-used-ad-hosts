@@ -8,7 +8,7 @@ on:
 
 env:
   GH_TOKEN: "${{ secrets.PAT_GH_GIST }}"
-  HOSTS_FILE: "EU_US_MV2_most_common_ad%2Btracking_networks.hosts"
+  HOSTS_FILE: "EU_US_MV2_most_common_ad+tracking_networks.hosts"
 
 defaults:
   run:
