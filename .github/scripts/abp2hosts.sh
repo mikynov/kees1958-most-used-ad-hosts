@@ -39,14 +39,14 @@ _convert() {
     done
 
     cat <<HEADER
-# Title: ${GITHUB_REPOSITORY}/EU_US+most_used_ad_and_tracking_networks.hosts
+# Title: ${GITHUB_REPOSITORY}/EU_US_MV2_most_common_ad+tracking_networks.hosts
 #
 # This hosts file is generated from ${1/\/raw\//\/blob\/}
 #
 # Date: $(date --utc --iso-8601=seconds)
 # Number of converted hosts: ${i}
 #
-# The latest version of this file: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/EU_US%2Bmost_used_ad_and_tracking_networks.hosts
+# The latest version of this file: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/EU_US_MV2_most_common_ad+tracking_networks.hosts
 #
 # ===============================================================
 HEADER
@@ -55,7 +55,7 @@ HEADER
 }
 
 _main() {
-    file="${1}"; shift
+    file="${1}" && shift
     curl --silent --location "${file}" | _convert "${file}"
 }
 
