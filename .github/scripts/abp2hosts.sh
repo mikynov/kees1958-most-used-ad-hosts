@@ -46,7 +46,7 @@ _convert() {
 # Date: $(date --utc --iso-8601=seconds)
 # Number of converted hosts: ${i}
 #
-# The latest version of this file: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/EU_US_MV2_most_common_ad+tracking_networks.hosts
+# The latest version of this file: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/EU_US_MV2_most_common_ad%2Btracking_networks.hosts
 #
 # ===============================================================
 HEADER
