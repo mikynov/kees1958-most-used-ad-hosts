@@ -45,7 +45,7 @@ jobs:
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
           url="https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/raw/${latest_sha}/${SOURCE_FILE}"
-          ./.github/scripts/abp2hosts.sh "${url}" > "${HOSTS_FILE}"
+          ./.github/scripts/abp2hosts.sh "${url}" "${HOSTS_FILE}" > "${HOSTS_FILE}"
       - name: "🔼 Storing the latest SHA"
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
@@ -81,7 +81,7 @@ jobs:
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
           url="https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/raw/${latest_sha}/${SOURCE_FILE}"
-          ./.github/scripts/abp2hosts.sh "${url}" > "${HOSTS_FILE}"
+          ./.github/scripts/abp2hosts.sh "${url}" "${HOSTS_FILE}" > "${HOSTS_FILE}"
           echo "updated=1" >> "${GITHUB_ENV}"
       - name: "🔼 Storing the latest SHA"
         if: ${{ env.latest_sha != env.saved_sha }}
