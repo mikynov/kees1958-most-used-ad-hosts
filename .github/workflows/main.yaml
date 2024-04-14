@@ -14,14 +14,25 @@ defaults:
     shell: bash
 
 jobs:
-  Convert-ad-track:
-    env:
-      SOURCE_FILE: "EU_US_MV3_most_common_ad%2Btracking_networks.txt"
-      HOSTS_FILE: "EU_US_MV3_most_common_ad+tracking_networks.hosts"
-      GISTS_DB_OBJ: "sha-ads"
+  Pre:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          env | grep --extended-regexp "^GITHUB" | sort
+
+  Checkout:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
+  Convert-ad-track:
+    needs: Checkout
+    env:
+      SOURCE_FILE: "EU_US_MV3_most_common_ad%2Btracking_networks.txt"
+      HOSTS_FILE: "EU_US_MV3_most_common_ad+tracking_networks.hosts"
+      GISTS_DB_OBJ: "sha-ad"
+    runs-on: ubuntu-latest
+    steps:
       - name: "🔽 Get the latest SHA"
         run: |
           latest_sha=$(gh api -H "Accept: application/vnd.github+json" "/repos/Kees1958/W3C_annual_most_used_survey_blocklist/commits?path=/${SOURCE_FILE}" --jq '.[0].sha')
@@ -35,19 +46,12 @@ jobs:
         run: |
           url="https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/raw/${latest_sha}/${SOURCE_FILE}"
           ./.github/scripts/abp2hosts.sh "${url}" > "${HOSTS_FILE}"
-      - name: "☑️ Commit changes"
-        if: ${{ env.latest_sha != env.saved_sha }}
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-          git add "${HOSTS_FILE}"
-          git commit --message "Updated from ${latest_sha}"
-          git push origin master
       - name: "🔼 Storing the latest SHA"
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
           ./.github/scripts/gistdb.sh update "latest.json" "${GISTS_DB_OBJ}" "${latest_sha}"
-      - name: "☑️ Done"
+          echo "updated=1" >> "${GITHUB_ENV}"
+      - name: "☑️ Result"
         run: |
           echo "Latest SHA: ${latest_sha}"
           echo "Saved SHA: ${saved_sha}"
@@ -58,13 +62,13 @@ jobs:
           fi
 
   Convert-ff-add:
+    needs: Checkout
     env:
       SOURCE_FILE: "addendum_to_Edge_Firefox_build_in.txt"
       HOSTS_FILE: "addendum_to_Edge_Firefox_build_in.hosts"
       GISTS_DB_OBJ: "sha-ff"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
       - name: "🔽 Get the latest SHA"
         run: |
           latest_sha=$(gh api -H "Accept: application/vnd.github+json" "/repos/Kees1958/W3C_annual_most_used_survey_blocklist/commits?path=/${SOURCE_FILE}" --jq '.[0].sha')
@@ -78,19 +82,12 @@ jobs:
         run: |
           url="https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/raw/${latest_sha}/${SOURCE_FILE}"
           ./.github/scripts/abp2hosts.sh "${url}" > "${HOSTS_FILE}"
-      - name: "☑️ Commit changes"
-        if: ${{ env.latest_sha != env.saved_sha }}
-        run: |
-          git config user.name "GitHub Actions Bot"
-          git config user.email "<>"
-          git add "${HOSTS_FILE}"
-          git commit --message "Updated from ${latest_sha}"
-          git push origin master
+          echo "updated=1" >> "${GITHUB_ENV}"
       - name: "🔼 Storing the latest SHA"
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
           ./.github/scripts/gistdb.sh update "latest.json" "${GISTS_DB_OBJ}" "${latest_sha}"
-      - name: "☑️ Done"
+      - name: "☑️ Result"
         run: |
           echo "Latest SHA: ${latest_sha}"
           echo "Saved SHA: ${saved_sha}"
@@ -99,3 +96,16 @@ jobs:
           else
             echo "🆕 ${HOST_FILE} generated."
           fi
+
+  Push:
+    needs: [Convert-ad-track, Convert-ff-add]
+    runs-on: ubuntu-latest
+    steps:
+      - name: "☑️ Commit changes"
+        if: ${{ env.updated == 1 }}
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git add .
+          git commit --message "Updated from upstream"
+          git push origin master

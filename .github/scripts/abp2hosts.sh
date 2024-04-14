@@ -39,14 +39,14 @@ _convert() {
     done
 
     cat <<HEADER
-# Title: ${GITHUB_REPOSITORY}/EU_US_MV2_most_common_ad+tracking_networks.hosts
+# Title: ${GITHUB_REPOSITORY}/${2}
 #
 # This hosts file is generated from ${1/\/raw\//\/blob\/}
 #
 # Date: $(date --utc --iso-8601=seconds)
 # Number of converted hosts: ${i}
 #
-# The latest version of this file: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/EU_US_MV2_most_common_ad%2Btracking_networks.hosts
+# The latest version of this file: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${GITHUB_REF_NAME}/$(jq --raw-output --null-input --arg name "${2}" '$name | @uri')
 #
 # ===============================================================
 HEADER
@@ -55,8 +55,9 @@ HEADER
 }
 
 _main() {
-    file="${1}" && shift
-    curl --silent --location "${file}" | _convert "${file}"
+    source_file_url="${1}" && shift
+    target_file="${1}" && shift
+    curl --silent --location "${source_file_url}" | _convert "${source_file_url}" "${target_file}"
 }
 
 [[ "${BASH_VERSINFO[0]}" -lt 4 ]] && echo "Requires Bash >= 4" && exit 44
