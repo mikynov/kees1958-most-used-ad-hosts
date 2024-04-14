@@ -45,7 +45,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: "ad"
-          path: "${HOSTS_FILE}"
+          path: "EU_US_MV3_most_common_ad+tracking_networks.hosts"
+          retention-days: 1
       - name: "🔼 Storing the latest SHA"
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
@@ -85,7 +86,8 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: "ff"
-          path: "${HOSTS_FILE}"
+          path: "addendum_to_Edge_Firefox_build_in.hosts"
+          retention-days: 1
       - name: "🔼 Storing the latest SHA"
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
