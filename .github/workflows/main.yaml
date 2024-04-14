@@ -8,29 +8,32 @@ on:
 
 env:
   GH_TOKEN: "${{ secrets.PAT_GH_GIST }}"
-  HOSTS_FILE: "EU_US_MV2_most_common_ad+tracking_networks.hosts"
 
 defaults:
   run:
     shell: bash
 
 jobs:
-  Convert:
+  Convert-ad-track:
+    env:
+      SOURCE_FILE: "EU_US_MV3_most_common_ad%2Btracking_networks.txt"
+      HOSTS_FILE: "EU_US_MV3_most_common_ad+tracking_networks.hosts"
+      GISTS_DB_OBJ: "sha-ads"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: "🔽 Get the latest SHA"
         run: |
-          latest_sha=$(gh api -H "Accept: application/vnd.github+json" "/repos/Kees1958/W3C_annual_most_used_survey_blocklist/commits?path=/EU_US_MV2_most_common_ad%2Btracking_networks.txt" --jq '.[0].sha')
+          latest_sha=$(gh api -H "Accept: application/vnd.github+json" "/repos/Kees1958/W3C_annual_most_used_survey_blocklist/commits?path=/${SOURCE_FILE}" --jq '.[0].sha')
           echo "latest_sha=${latest_sha}" >> "${GITHUB_ENV}"
       - name: "🔽 Get the saved SHA"
         run: |
-          saved_sha=$(./.github/scripts/gistdb.sh get "latest.json" "sha")
+          saved_sha=$(./.github/scripts/gistdb.sh get "latest.json" "${GISTS_DB_OBJ}")
           echo "saved_sha=${saved_sha}" >> "${GITHUB_ENV}"
       - name: "🔄 Converting ABP domains list to hosts"
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
-          url="https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/raw/${latest_sha}/EU_US_MV2_most_common_ad%2Btracking_networks.txt"
+          url="https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/raw/${latest_sha}/${SOURCE_FILE}"
           ./.github/scripts/abp2hosts.sh "${url}" > "${HOSTS_FILE}"
       - name: "☑️ Commit changes"
         if: ${{ env.latest_sha != env.saved_sha }}
@@ -43,7 +46,7 @@ jobs:
       - name: "🔼 Storing the latest SHA"
         if: ${{ env.latest_sha != env.saved_sha }}
         run: |
-          ./.github/scripts/gistdb.sh update "latest.json" "sha" "${latest_sha}"
+          ./.github/scripts/gistdb.sh update "latest.json" "${GISTS_DB_OBJ}" "${latest_sha}"
       - name: "☑️ Done"
         run: |
           echo "Latest SHA: ${latest_sha}"
@@ -51,5 +54,48 @@ jobs:
           if [[ "${latest_sha}" == "${saved_sha}" ]]; then
             echo "🆒 Up-to-date!"
           else
-            echo "🆕 Host file generated."
+            echo "🆕 ${HOST_FILE} generated."
+          fi
+
+  Convert-ff-add:
+    env:
+      SOURCE_FILE: "addendum_to_Edge_Firefox_build_in.txt"
+      HOSTS_FILE: "addendum_to_Edge_Firefox_build_in.hosts"
+      GISTS_DB_OBJ: "sha-ff"
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: "🔽 Get the latest SHA"
+        run: |
+          latest_sha=$(gh api -H "Accept: application/vnd.github+json" "/repos/Kees1958/W3C_annual_most_used_survey_blocklist/commits?path=/${SOURCE_FILE}" --jq '.[0].sha')
+          echo "latest_sha=${latest_sha}" >> "${GITHUB_ENV}"
+      - name: "🔽 Get the saved SHA"
+        run: |
+          saved_sha=$(./.github/scripts/gistdb.sh get "latest.json" "${GISTS_DB_OBJ}")
+          echo "saved_sha=${saved_sha}" >> "${GITHUB_ENV}"
+      - name: "🔄 Converting ABP domains list to hosts"
+        if: ${{ env.latest_sha != env.saved_sha }}
+        run: |
+          url="https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/raw/${latest_sha}/${SOURCE_FILE}"
+          ./.github/scripts/abp2hosts.sh "${url}" > "${HOSTS_FILE}"
+      - name: "☑️ Commit changes"
+        if: ${{ env.latest_sha != env.saved_sha }}
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "<>"
+          git add "${HOSTS_FILE}"
+          git commit --message "Updated from ${latest_sha}"
+          git push origin master
+      - name: "🔼 Storing the latest SHA"
+        if: ${{ env.latest_sha != env.saved_sha }}
+        run: |
+          ./.github/scripts/gistdb.sh update "latest.json" "${GISTS_DB_OBJ}" "${latest_sha}"
+      - name: "☑️ Done"
+        run: |
+          echo "Latest SHA: ${latest_sha}"
+          echo "Saved SHA: ${saved_sha}"
+          if [[ "${latest_sha}" == "${saved_sha}" ]]; then
+            echo "🆒 Up-to-date!"
+          else
+            echo "🆕 ${HOST_FILE} generated."
           fi
