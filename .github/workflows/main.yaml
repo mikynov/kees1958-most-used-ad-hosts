@@ -27,7 +27,7 @@ jobs:
       GISTS_DB_OBJ: "sha-ad"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: "🔽 Get the latest SHA"
         run: |
           latest_sha=$(gh api -H "Accept: application/vnd.github+json" "/repos/Kees1958/W3C_annual_most_used_survey_blocklist/commits?path=/${SOURCE_FILE}" --jq '.[0].sha')
@@ -67,7 +67,7 @@ jobs:
       GISTS_DB_OBJ: "sha-ff"
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: "🔽 Get the latest SHA"
         run: |
           latest_sha=$(gh api -H "Accept: application/vnd.github+json" "/repos/Kees1958/W3C_annual_most_used_survey_blocklist/commits?path=/${SOURCE_FILE}" --jq '.[0].sha')
@@ -104,7 +104,7 @@ jobs:
     needs: [Convert-ad-track, Convert-ff-add]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/download-artifact@v4
         with:
           name: ad
@@ -116,5 +116,9 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add .
-          git commit --message "Updated from upstream"
-          git push origin master
+          if git status --porcelain; then
+            git commit --message "Updated from upstream"
+            git push origin master
+          else
+            echo "No changes"
+          fi
