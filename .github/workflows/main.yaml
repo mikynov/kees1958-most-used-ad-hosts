@@ -116,7 +116,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
           git add .
-          if git status --porcelain; then
+          if [[ $(git status --porcelain) ]]; then
             git commit --message "Updated from upstream"
             git push origin master
           else
