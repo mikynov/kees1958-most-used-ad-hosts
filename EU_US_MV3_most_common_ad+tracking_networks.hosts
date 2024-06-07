@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/77990ae878884a21fa9ec65e814eedc5dcc9229f/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/d3b10346a2bddd795fd53c155c671b83c81a8818/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2024-04-14T16:50:43+00:00
-# Number of converted hosts: 2569
+# Date: 2024-06-07T21:26:17+00:00
+# Number of converted hosts: 2567
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -847,7 +847,6 @@
 0.0.0.0 dedicatedmedia.com
 0.0.0.0 dedicatednetworks.com
 0.0.0.0 deepintent.com
-0.0.0.0 delivr.com
 0.0.0.0 deltaprojects.se
 0.0.0.0 demand.supply
 0.0.0.0 demandbase.com
@@ -2554,7 +2553,6 @@
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 marketingsolutions.yahoo.com
 0.0.0.0 adtech.yahooinc.com
-0.0.0.0 yandex.com
 0.0.0.0 ads.pinterest.com
 0.0.0.0 analytics.pinterest.com
 0.0.0.0 log.pinterest.com
