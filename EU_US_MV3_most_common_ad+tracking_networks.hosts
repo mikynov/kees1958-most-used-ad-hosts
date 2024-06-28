@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/d3b10346a2bddd795fd53c155c671b83c81a8818/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/88d172902bbe1cf45a7c192209c6afc70893eba2/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2024-06-07T21:26:17+00:00
-# Number of converted hosts: 2567
+# Date: 2024-06-28T21:26:07+00:00
+# Number of converted hosts: 2566
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -477,7 +477,6 @@
 0.0.0.0 avidglobalmedia.eu
 0.0.0.0 avmws.com
 0.0.0.0 avocet.io
-0.0.0.0 avplayer.com
 0.0.0.0 avsads.com
 0.0.0.0 aweber.com
 0.0.0.0 awin.com

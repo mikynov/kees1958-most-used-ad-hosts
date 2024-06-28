@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/addendum_to_Edge_Firefox_build_in.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/193c4eec5a4f4deb60a37439598fdccd22c7da3c/addendum_to_Edge_Firefox_build_in.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/5fd10df68a35dafd1b808ea2395952c648b8e447/addendum_to_Edge_Firefox_build_in.txt
 #
-# Date: 2024-06-07T21:26:19+00:00
-# Number of converted hosts: 4943
+# Date: 2024-06-28T21:26:05+00:00
+# Number of converted hosts: 4940
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/addendum_to_Edge_Firefox_build_in.hosts
 #
@@ -3326,7 +3326,6 @@
 0.0.0.0 ping-fast.com
 0.0.0.0 pingil.com
 0.0.0.0 pingomatic.com
-0.0.0.0 pinterest.com
 0.0.0.0 pipfire.com
 0.0.0.0 piratepx.com
 0.0.0.0 pi-stats.com
@@ -3536,7 +3535,6 @@
 0.0.0.0 quintesse.io
 0.0.0.0 quiq-cdn.com
 0.0.0.0 quitsnap-blue.com
-0.0.0.0 quora.com
 0.0.0.0 quple.io
 0.0.0.0 qzlog.com
 0.0.0.0 r7ls.net
@@ -4278,7 +4276,6 @@
 0.0.0.0 throtle.io
 0.0.0.0 thruport.com
 0.0.0.0 thuis.nl
-0.0.0.0 tiktok.com
 0.0.0.0 timeone.io
 0.0.0.0 timeonegroup.com
 0.0.0.0 tinb.net
