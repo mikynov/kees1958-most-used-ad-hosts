@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/88d172902bbe1cf45a7c192209c6afc70893eba2/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/a4f838b40b4938d97bc3bdb64ff11290fe9070d6/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2024-06-28T21:26:07+00:00
-# Number of converted hosts: 2566
+# Date: 2024-09-13T21:27:23+00:00
+# Number of converted hosts: 2580
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -526,6 +526,7 @@
 0.0.0.0 bidstreamserver.com
 0.0.0.0 bidswitch.net
 0.0.0.0 bidsystem.com
+0.0.0.0 bidvertiser.com
 0.0.0.0 bid-tag.com
 0.0.0.0 bidtellect.com
 0.0.0.0 bidtheatre.com
@@ -677,6 +678,8 @@
 0.0.0.0 clearsightinteractive.com
 0.0.0.0 clearstream.tv
 0.0.0.0 clickable.net
+0.0.0.0 clickadilla.com
+0.0.0.0 clickadu.com
 0.0.0.0 clickagy.com
 0.0.0.0 clickaider.com
 0.0.0.0 clickbank.net
@@ -725,6 +728,7 @@
 0.0.0.0 cobaltgroup.com
 0.0.0.0 cognitivematch.com
 0.0.0.0 cohesionapps.com
+0.0.0.0 coinis.com
 0.0.0.0 collective.com
 0.0.0.0 collective-media.net
 0.0.0.0 collserve.com
@@ -1019,6 +1023,7 @@
 0.0.0.0 eyereturnmarketing.com
 0.0.0.0 eyeviewdigital.com
 0.0.0.0 eyewonder.com
+0.0.0.0 ezmob.com
 0.0.0.0 eztargetmedia.com
 0.0.0.0 facilitatedigital.com
 0.0.0.0 factortg.com
@@ -1067,6 +1072,7 @@
 0.0.0.0 fuseplatform.net
 0.0.0.0 futureads.com
 0.0.0.0 g2.com
+0.0.0.0 galaksion.com
 0.0.0.0 game-advertising-online.com
 0.0.0.0 games2win.com
 0.0.0.0 gamned.com
@@ -1305,6 +1311,7 @@
 0.0.0.0 justpremium.com
 0.0.0.0 justuno.com
 0.0.0.0 jwpltx.com
+0.0.0.0 kameleon.eu
 0.0.0.0 kampyle.com
 0.0.0.0 kanoodle.com
 0.0.0.0 kantarmedia.com
@@ -1564,6 +1571,7 @@
 0.0.0.0 mxpnl.com
 0.0.0.0 mxptint.net
 0.0.0.0 myads.com
+0.0.0.0 mybid.io
 0.0.0.0 mybuys.com
 0.0.0.0 mycounter.com.ua
 0.0.0.0 mydas.mobi
@@ -1630,6 +1638,7 @@
 0.0.0.0 nr-data.net
 0.0.0.0 nrelate.com
 0.0.0.0 nrich.ai
+0.0.0.0 nrmodam.com
 0.0.0.0 nspmotion.com
 0.0.0.0 ntv.io
 0.0.0.0 nuance.com
@@ -1762,6 +1771,7 @@
 0.0.0.0 playground.xyz
 0.0.0.0 plista.com
 0.0.0.0 plugin.management
+0.0.0.0 plugrush.com
 0.0.0.0 pm14.com
 0.0.0.0 pocketcents.com
 0.0.0.0 pointmediatracker.com
@@ -1864,6 +1874,7 @@
 0.0.0.0 rapleaf.com
 0.0.0.0 ratevoice.com
 0.0.0.0 rdcdn.com
+0.0.0.0 reacheffect.com
 0.0.0.0 reachlocal.com
 0.0.0.0 react2media.com
 0.0.0.0 reactful.com
@@ -2268,6 +2279,7 @@
 0.0.0.0 trafficrevenue.net
 0.0.0.0 trafficroots.com
 0.0.0.0 trafficscore.com
+0.0.0.0 trafficstar.com
 0.0.0.0 traffiliate.com
 0.0.0.0 traffiq.com
 0.0.0.0 trafmag.com
@@ -2325,6 +2337,7 @@
 0.0.0.0 uniqlick.com
 0.0.0.0 unityads.unity3d.com
 0.0.0.0 unrulymedia.com
+0.0.0.0 unqads.com
 0.0.0.0 uplift-platform.com
 0.0.0.0 upravel.com
 0.0.0.0 upsellit.com
@@ -2525,6 +2538,7 @@
 0.0.0.0 zephr.com
 0.0.0.0 zergnet.com
 0.0.0.0 zeronaught.com
+0.0.0.0 zeropark.com
 0.0.0.0 zestad.com
 0.0.0.0 zetaemailsolutions.com
 0.0.0.0 zg-api.com
@@ -2541,7 +2555,7 @@
 0.0.0.0 googleanalytics.com
 0.0.0.0 google-analytics.com
 0.0.0.0 googleoptimize.com
-0.0.0.0 googlesyndication.com
+0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
 0.0.0.0 bat.bing.com
