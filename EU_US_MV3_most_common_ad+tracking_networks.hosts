@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/a4f838b40b4938d97bc3bdb64ff11290fe9070d6/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/a2716acfe93e4605d72e0ccce8c617dd0e671231/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2024-09-13T21:27:23+00:00
-# Number of converted hosts: 2580
+# Date: 2024-09-20T21:27:12+00:00
+# Number of converted hosts: 2572
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -172,7 +172,6 @@
 0.0.0.0 admedo.com
 0.0.0.0 admeld.com
 0.0.0.0 admeta.com
-0.0.0.0 admicro.vn
 0.0.0.0 admission.net
 0.0.0.0 admixer.co.kr
 0.0.0.0 admixer.net
@@ -281,12 +280,10 @@
 0.0.0.0 adsvelocity.com
 0.0.0.0 adswizz.com
 0.0.0.0 adsymptotic.com
-0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 adtarget.me
 0.0.0.0 adtdp.com
 0.0.0.0 adtech.com
 0.0.0.0 adtech.de
-0.0.0.0 adtechjp.com
 0.0.0.0 adtechus.com
 0.0.0.0 adtegrity.com
 0.0.0.0 adtegrity.net
@@ -319,11 +316,9 @@
 0.0.0.0 advertise.com
 0.0.0.0 advertisespace.com
 0.0.0.0 advertising.com
-0.0.0.0 advertising-api-eu.amazon.com
 0.0.0.0 advertserve.com
 0.0.0.0 advertstream.com
 0.0.0.0 adviad.com
-0.0.0.0 advice-ads.s3.amazonaws.com
 0.0.0.0 advisormedia.cz
 0.0.0.0 adviva.co.uk
 0.0.0.0 adviva.net
@@ -394,8 +389,6 @@
 0.0.0.0 altitude-arena.com
 0.0.0.0 amadesa.com
 0.0.0.0 amazingcounters.com
-0.0.0.0 amazon.co.uk
-0.0.0.0 amazon-adsystem.com
 0.0.0.0 amgdgt.com
 0.0.0.0 amigos.com
 0.0.0.0 a-mo.net
@@ -439,8 +432,6 @@
 0.0.0.0 aroa.io
 0.0.0.0 arrivalist.com
 0.0.0.0 asadcdn.com
-0.0.0.0 assoc-amazon.com
-0.0.0.0 associates-amazon.com
 0.0.0.0 aswpsdkus.com
 0.0.0.0 atedra.com
 0.0.0.0 atemda.com
@@ -945,7 +936,6 @@
 0.0.0.0 emediate.com
 0.0.0.0 emediate.dk
 0.0.0.0 emediate.eu
-0.0.0.0 emerse.com
 0.0.0.0 emjcd.com
 0.0.0.0 emxdgt.com
 0.0.0.0 emxdigital.com
@@ -2219,7 +2209,6 @@
 0.0.0.0 techsolutions.com.tw
 0.0.0.0 tellapart.com
 0.0.0.0 tellapt.com
-0.0.0.0 telstra.com.au
 0.0.0.0 tend-table.com
 0.0.0.0 tenmax.io
 0.0.0.0 tensquare.com
@@ -2428,7 +2417,6 @@
 0.0.0.0 webengage.com
 0.0.0.0 webeyez.com
 0.0.0.0 webgozar.com
-0.0.0.0 webgozar.ir
 0.0.0.0 webmecanik.com
 0.0.0.0 webmetro.com
 0.0.0.0 weborama.com
@@ -2463,7 +2451,6 @@
 0.0.0.0 wordstream.com
 0.0.0.0 wowanalytics.co.uk
 0.0.0.0 wpmudev.com
-0.0.0.0 wpp.com
 0.0.0.0 wrethicap.info
 0.0.0.0 wsod.com
 0.0.0.0 wt-eu02.net
@@ -2585,6 +2572,11 @@
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 analytics.twitter.com
 0.0.0.0 static.ads-twitter.com
-0.0.0.0 alibaba.com
+0.0.0.0 amazon-adsystem.com
 0.0.0.0 analytics.s3.amazonaws.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
+0.0.0.0 advertising-api-eu.amazon.com
+0.0.0.0 advice-ads.s3.amazonaws.com
+0.0.0.0 adtago.s3.amazonaws.com
+0.0.0.0 assoc-amazon.com
+0.0.0.0 associates-amazon.com
