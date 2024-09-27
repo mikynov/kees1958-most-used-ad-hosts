@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/a2716acfe93e4605d72e0ccce8c617dd0e671231/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/962aaf281ed64df6089ef4185ae5c8b1fb980077/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2024-09-20T21:27:12+00:00
-# Number of converted hosts: 2572
+# Date: 2024-09-27T21:28:36+00:00
+# Number of converted hosts: 2570
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -1142,8 +1142,6 @@
 0.0.0.0 highwire.org
 0.0.0.0 hilltopads.com
 0.0.0.0 hilltopads.net
-0.0.0.0 hi-media.com
-0.0.0.0 hinet.net
 0.0.0.0 hipcricket.com
 0.0.0.0 histats.com
 0.0.0.0 hit.ua
