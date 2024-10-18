@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/962aaf281ed64df6089ef4185ae5c8b1fb980077/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/444f2a0933d65c68dbefc9e0f535976ef5c6453b/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2024-09-27T21:28:36+00:00
-# Number of converted hosts: 2570
+# Date: 2024-10-18T21:28:20+00:00
+# Number of converted hosts: 2571
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -1113,6 +1113,7 @@
 0.0.0.0 gorillanation.com
 0.0.0.0 gosquared.com
 0.0.0.0 gostats.com
+0.0.0.0 go-srv.com
 0.0.0.0 goutee.top
 0.0.0.0 grapeshot.co.uk
 0.0.0.0 graphenedigitalanalytics.in
