@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/444f2a0933d65c68dbefc9e0f535976ef5c6453b/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/1b3b8dea2fbca1c537290311a25c3d51cbb14e28/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2024-10-18T21:28:20+00:00
-# Number of converted hosts: 2571
+# Date: 2024-11-01T21:27:43+00:00
+# Number of converted hosts: 2570
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -578,7 +578,6 @@
 0.0.0.0 branica.com
 0.0.0.0 brealtime.com
 0.0.0.0 bridgetrack.com
-0.0.0.0 brightcove.com
 0.0.0.0 brightedge.com
 0.0.0.0 brightroll.com
 0.0.0.0 brighttag.com
