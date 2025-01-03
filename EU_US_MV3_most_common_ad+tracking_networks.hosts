@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/1b3b8dea2fbca1c537290311a25c3d51cbb14e28/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/6b6d88f6fa32dffcada1afd189dcd8de49ad2e27/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2024-11-01T21:27:43+00:00
-# Number of converted hosts: 2570
+# Date: 2025-01-03T21:26:51+00:00
+# Number of converted hosts: 2571
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -2070,6 +2070,7 @@
 0.0.0.0 smartyads.com
 0.0.0.0 smilewanted.com
 0.0.0.0 smileymedia.com
+0.0.0.0 snowplow.io
 0.0.0.0 smowtion.com
 0.0.0.0 smrtlnks.com
 0.0.0.0 smtad.net
