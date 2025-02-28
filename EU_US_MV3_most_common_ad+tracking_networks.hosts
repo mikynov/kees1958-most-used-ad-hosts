@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/23f08f2850a7b57b440189e2e3ce22b2744785ad/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/5f1c3b849ae4f03e3efbe757a3a0834fffefb209/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2025-02-07T21:26:29+00:00
-# Number of converted hosts: 2481
+# Date: 2025-02-28T21:27:41+00:00
+# Number of converted hosts: 2480
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -1246,7 +1246,6 @@
 0.0.0.0 jivox.com
 0.0.0.0 jixie.io
 0.0.0.0 jobthread.com
-0.0.0.0 js-agent.newrelic.com
 0.0.0.0 jsrdn.com
 0.0.0.0 juicyads.com
 0.0.0.0 jumptap.com
