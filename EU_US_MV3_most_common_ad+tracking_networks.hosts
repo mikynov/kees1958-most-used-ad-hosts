@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/709e8ea9ebe9cb376984ff48b0b68df1d555ffa0/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/cf4443a47af122a218734121a8c6a86c8fe960b3/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2025-06-06T21:33:43+00:00
-# Number of converted hosts: 3031
+# Date: 2025-06-13T21:35:03+00:00
+# Number of converted hosts: 3040
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -19,6 +19,7 @@
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
 0.0.0.0 ogads-pa.googleapis.com
+0.0.0.0 afs.googlesyndication.com
 0.0.0.0 bat.bing.com
 0.0.0.0 adserver.yahoo.com
 0.0.0.0 ads.yahoo.com
@@ -27,11 +28,18 @@
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 marketingsolutions.yahoo.com
 0.0.0.0 adtech.yahooinc.com
+0.0.0.0 geo.yahoo.com
+0.0.0.0 udc.yahoo.com
+0.0.0.0 udcm.yahoo.com
+0.0.0.0 gemini.yahoo.com
 0.0.0.0 gotoyahoo.com
-0.0.0.0 report-partners.appmetrica.yandex.net
+0.0.0.0 extmaps-api.yandex.net
 0.0.0.0 report.ap.yandex-net.ru
-0.0.0.0 report.appmetrica.yandex.net
-0.0.0.0 api.appmetrica.yandex.ru
+0.0.0.0 adfstat.yandex.ru
+0.0.0.0 appmetrica.yandex.ru
+0.0.0.0 metrika.yandex.ru
+0.0.0.0 offerwall.yandex.net
+0.0.0.0 adfox.yandex.ru
 0.0.0.0 ads.pinterest.com
 0.0.0.0 analytics.pinterest.com
 0.0.0.0 log.pinterest.com
@@ -1130,6 +1138,7 @@
 0.0.0.0 exelator.com
 0.0.0.0 exitjunction.com
 0.0.0.0 exoclick.com
+0.0.0.0 exdynsrv.com
 0.0.0.0 exosrv.com
 0.0.0.0 exoticads.com
 0.0.0.0 experian.com
