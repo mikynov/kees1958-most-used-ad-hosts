@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/cf4443a47af122a218734121a8c6a86c8fe960b3/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/887dd86c797cd51c23be708482895cde8f2a4c31/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2025-06-13T21:35:03+00:00
-# Number of converted hosts: 3040
+# Date: 2025-07-04T21:34:09+00:00
+# Number of converted hosts: 3039
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -361,7 +361,6 @@
 0.0.0.0 adsvelocity.com
 0.0.0.0 adswizz.com
 0.0.0.0 adsymptotic.com
-0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 adtarget.me
 0.0.0.0 adtdp.com
 0.0.0.0 adtech.com
@@ -478,7 +477,6 @@
 0.0.0.0 amadesa.com
 0.0.0.0 amateurhub.cam
 0.0.0.0 amazingcounters.com
-0.0.0.0 amazon-adsystem.com
 0.0.0.0 amgdgt.com
 0.0.0.0 amigos.com
 0.0.0.0 amobee.com
@@ -1692,6 +1690,7 @@
 0.0.0.0 mateti.net
 0.0.0.0 matheranalytics.com
 0.0.0.0 mathtag.com
+0.0.0.0 matomo.net
 0.0.0.0 matomo.cloud
 0.0.0.0 matomo.org
 0.0.0.0 matomy.com
