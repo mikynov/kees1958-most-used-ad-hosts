@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/887dd86c797cd51c23be708482895cde8f2a4c31/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/35b9c4f659e893f60fcd5d01450e7429310c7796/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2025-07-04T21:34:09+00:00
-# Number of converted hosts: 3039
+# Date: 2025-07-18T21:37:00+00:00
+# Number of converted hosts: 3042
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -33,13 +33,16 @@
 0.0.0.0 udcm.yahoo.com
 0.0.0.0 gemini.yahoo.com
 0.0.0.0 gotoyahoo.com
-0.0.0.0 extmaps-api.yandex.net
-0.0.0.0 report.ap.yandex-net.ru
 0.0.0.0 adfstat.yandex.ru
+0.0.0.0 api-metrika.yandex.net
 0.0.0.0 appmetrica.yandex.ru
+0.0.0.0 appmetrica.yandex.com
+0.0.0.0 informer.yandex.ru
+0.0.0.0 mc.yandex.ru
 0.0.0.0 metrika.yandex.ru
+0.0.0.0 metrika.yandex.com
 0.0.0.0 offerwall.yandex.net
-0.0.0.0 adfox.yandex.ru
+0.0.0.0 report.ap.yandex-net.ru
 0.0.0.0 ads.pinterest.com
 0.0.0.0 analytics.pinterest.com
 0.0.0.0 log.pinterest.com
