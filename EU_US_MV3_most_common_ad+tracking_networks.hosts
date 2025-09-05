@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/35b9c4f659e893f60fcd5d01450e7429310c7796/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/620f5e997a2e703e77ead8de0bb4666e014ff713/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2025-07-18T21:37:00+00:00
-# Number of converted hosts: 3042
+# Date: 2025-09-05T21:30:04+00:00
+# Number of converted hosts: 3041
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -617,7 +617,6 @@
 0.0.0.0 birthdaybelief.com
 0.0.0.0 bitcoinplus.com
 0.0.0.0 bitmedia.io
-0.0.0.0 bitmovin.com
 0.0.0.0 bitrix.info
 0.0.0.0 bittads.com
 0.0.0.0 bizible.com
