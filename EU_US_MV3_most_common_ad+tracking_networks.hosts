@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/620f5e997a2e703e77ead8de0bb4666e014ff713/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/6058aabc976f3155bd566b006343f78b1d70baee/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2025-09-05T21:30:04+00:00
-# Number of converted hosts: 3041
+# Date: 2025-10-03T21:28:55+00:00
+# Number of converted hosts: 3042
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -18,8 +18,10 @@
 0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 googletagmanager.com
 0.0.0.0 googletagservices.com
+0.0.0.0 imasdk.googleapis.com
 0.0.0.0 ogads-pa.googleapis.com
 0.0.0.0 afs.googlesyndication.com
+0.0.0.0 doubleclick.net
 0.0.0.0 bat.bing.com
 0.0.0.0 adserver.yahoo.com
 0.0.0.0 ads.yahoo.com
@@ -1024,7 +1026,6 @@
 0.0.0.0 dotmetrics.net
 0.0.0.0 dotomi.com
 0.0.0.0 double-check.com
-0.0.0.0 doubleclick.net
 0.0.0.0 doublepimp.com
 0.0.0.0 doublepositive.com
 0.0.0.0 doubleverify.com
@@ -1398,7 +1399,6 @@
 0.0.0.0 iheartbucks.com
 0.0.0.0 ilovecheating.com
 0.0.0.0 im-apps.net
-0.0.0.0 imasdk.googleapis.com
 0.0.0.0 imediacrew.club
 0.0.0.0 imglnka.com
 0.0.0.0 imglnkb.com
@@ -2717,6 +2717,7 @@
 0.0.0.0 traffic.ru
 0.0.0.0 trafficbass.com
 0.0.0.0 trafficfacts.com
+0.0.0.0 trafficforce.com
 0.0.0.0 trafficguard.ai
 0.0.0.0 traffichaus.com
 0.0.0.0 trafficholder.com
