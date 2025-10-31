@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/33b6de5764fa107839686655bea3d2f49f2e267c/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/b246b1ffef54a284e57ebe5c58bd526b34f47c31/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2025-10-24T21:30:51+00:00
-# Number of converted hosts: 409
+# Date: 2025-10-31T21:28:31+00:00
+# Number of converted hosts: 406
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -185,7 +185,6 @@
 0.0.0.0 extreme-dm.com
 0.0.0.0 extremetracking.com
 0.0.0.0 ezoic.com
-0.0.0.0 facebook.com
 0.0.0.0 fc2.com
 0.0.0.0 finteza.com
 0.0.0.0 flagcounter.com
@@ -296,7 +295,6 @@
 0.0.0.0 piano.io
 0.0.0.0 pirsch.io
 0.0.0.0 piwik.pro
-0.0.0.0 pixel.facebook.com
 0.0.0.0 plausible.io
 0.0.0.0 plugrush.com
 0.0.0.0 popads.net
@@ -390,7 +388,6 @@
 0.0.0.0 twilio.com
 0.0.0.0 twinred.com
 0.0.0.0 twipla.ru
-0.0.0.0 twitter.com
 0.0.0.0 u2media.com
 0.0.0.0 ukadultads.com
 0.0.0.0 umami.is
