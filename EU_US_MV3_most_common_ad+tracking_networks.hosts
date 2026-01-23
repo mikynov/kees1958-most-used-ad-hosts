@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/b246b1ffef54a284e57ebe5c58bd526b34f47c31/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/514e867d822544438001eabce40ada07d26e0266/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2025-10-31T21:28:31+00:00
-# Number of converted hosts: 406
+# Date: 2026-01-23T21:38:37+00:00
+# Number of converted hosts: 403
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -77,7 +77,6 @@
 0.0.0.0 123count.com
 0.0.0.0 24counter.com
 0.0.0.0 51.la
-0.0.0.0 ackee.so
 0.0.0.0 acoustic.com
 0.0.0.0 ad-delivery.net
 0.0.0.0 ad4game.com
@@ -115,30 +114,26 @@
 0.0.0.0 analytics.salesforce.com
 0.0.0.0 analyzati.com
 0.0.0.0 anunciar.com
-0.0.0.0 apnadult.com
 0.0.0.0 appdynamics.com
-0.0.0.0 ashpublishing.com
 0.0.0.0 audiencescience.com
 0.0.0.0 auriq.com
 0.0.0.0 avantlink.com
 0.0.0.0 aweber.com
 0.0.0.0 awstats.org
 0.0.0.0 axillium.com
-0.0.0.0 beapxad.com
 0.0.0.0 bestcontent.com
 0.0.0.0 bidvertiser.com
 0.0.0.0 biggerads.com
 0.0.0.0 blockthrough.com
 0.0.0.0 blogads.com
 0.0.0.0 bongacams.com
+0.0.0.0 braze.com
 0.0.0.0 buysellads.com
 0.0.0.0 c1000.com
 0.0.0.0 camads.net
-0.0.0.0 candidwhores.com
 0.0.0.0 carbonads.com
 0.0.0.0 cashfiesta.com
 0.0.0.0 cashlayer.com
-0.0.0.0 cexclick.com
 0.0.0.0 chartbeat.com
 0.0.0.0 cj.com
 0.0.0.0 clearbit.com
@@ -146,12 +141,12 @@
 0.0.0.0 clickadilla.com
 0.0.0.0 clickbank.com
 0.0.0.0 clickbooth.com
-0.0.0.0 clicksvenue.com
 0.0.0.0 clicktale.com
 0.0.0.0 clicky.com
 0.0.0.0 clustrmaps.com
 0.0.0.0 collective.com
 0.0.0.0 commandersact.com
+0.0.0.0 contentinsights.com
 0.0.0.0 contentsquare.com
 0.0.0.0 count.ly
 0.0.0.0 counter.dev
@@ -164,10 +159,12 @@
 0.0.0.0 criteo.com
 0.0.0.0 cronitor.io
 0.0.0.0 crosspixel.cloud
+0.0.0.0 cxense.com
 0.0.0.0 datingads.com
 0.0.0.0 demandjump.com
 0.0.0.0 digitalremedy.com
 0.0.0.0 doppiocdn.com
+0.0.0.0 dotmetrics.net
 0.0.0.0 dreamdata.io
 0.0.0.0 dstillery.com
 0.0.0.0 dynatrace.com
@@ -196,10 +193,8 @@
 0.0.0.0 fullcircle.com
 0.0.0.0 fullstory.com
 0.0.0.0 fusedeck.com
-0.0.0.0 gadultads.com
 0.0.0.0 gaug.es
 0.0.0.0 gemius.com
-0.0.0.0 getsitcontrol.com
 0.0.0.0 gfrevenge.com
 0.0.0.0 go2traffic.com
 0.0.0.0 goatcounter.com
@@ -266,7 +261,6 @@
 0.0.0.0 naked.com
 0.0.0.0 nativo.com
 0.0.0.0 navegg.com
-0.0.0.0 netcost-security.com
 0.0.0.0 newrelic.com
 0.0.0.0 nexxen.io
 0.0.0.0 nielsen.com
@@ -274,7 +268,6 @@
 0.0.0.0 niscprts.com
 0.0.0.0 nudereviews.com
 0.0.0.0 nuffnang.com
-0.0.0.0 nutra-origin.com
 0.0.0.0 octoclick.com
 0.0.0.0 onedollarstats.com
 0.0.0.0 onlyads.com
@@ -287,11 +280,13 @@
 0.0.0.0 outbrain.com
 0.0.0.0 paidonresults.com
 0.0.0.0 parse.ly
+0.0.0.0 parsely.com
 0.0.0.0 partnerize.com
 0.0.0.0 paysites.com
 0.0.0.0 peanutlabs.com
 0.0.0.0 pendo.io
 0.0.0.0 performancerevenue.com
+0.0.0.0 permutive.com
 0.0.0.0 piano.io
 0.0.0.0 pirsch.io
 0.0.0.0 piwik.pro
@@ -314,14 +309,16 @@
 0.0.0.0 qads.com
 0.0.0.0 qualaroo.com
 0.0.0.0 quantcast.com
+0.0.0.0 quantcount.com
+0.0.0.0 quantserve.com
 0.0.0.0 rakutenadvertising.com
 0.0.0.0 rambler.ru
 0.0.0.0 ravantmedia.com
-0.0.0.0 realadx.com
 0.0.0.0 realtimeanalytics.com
 0.0.0.0 redlightcenter.com
 0.0.0.0 referralcandy.com
 0.0.0.0 revcash.com
+0.0.0.0 revcontent.com
 0.0.0.0 rhythmone.com
 0.0.0.0 richads.com
 0.0.0.0 rollerads.com
@@ -348,6 +345,7 @@
 0.0.0.0 skimlinks.com
 0.0.0.0 skimresources.com
 0.0.0.0 smartlook.com
+0.0.0.0 smartocto.com
 0.0.0.0 smartyads.com
 0.0.0.0 snoobi.com
 0.0.0.0 snowplow.io
@@ -355,7 +353,6 @@
 0.0.0.0 solarads.com
 0.0.0.0 sovrn.com
 0.0.0.0 sparkmedia.com
-0.0.0.0 specific-click.com
 0.0.0.0 splitbee.io
 0.0.0.0 spyfu.com
 0.0.0.0 statcounter.com
@@ -372,7 +369,6 @@
 0.0.0.0 top.mail.ru
 0.0.0.0 toplist.cz
 0.0.0.0 tradedoubler.com
-0.0.0.0 traffic-ox.com
 0.0.0.0 trafficfactory.biz
 0.0.0.0 trafficfactory.com
 0.0.0.0 trafficforce.com
@@ -382,17 +378,17 @@
 0.0.0.0 trafficstars.com
 0.0.0.0 trendcounter.com
 0.0.0.0 trix.net
+0.0.0.0 trueanthem.com
 0.0.0.0 tsyndicate.com
 0.0.0.0 tubeads.com
 0.0.0.0 tubecorporate.com
 0.0.0.0 twilio.com
 0.0.0.0 twinred.com
-0.0.0.0 twipla.ru
 0.0.0.0 u2media.com
-0.0.0.0 ukadultads.com
 0.0.0.0 umami.is
 0.0.0.0 umeng.com
 0.0.0.0 unityads.unity3d.com
+0.0.0.0 usabilla.com
 0.0.0.0 usefathom.com
 0.0.0.0 usermaven.com
 0.0.0.0 usertesting.com
@@ -401,6 +397,7 @@
 0.0.0.0 valuecommerce.co.jp
 0.0.0.0 vdx.tv
 0.0.0.0 vibrantmedia.com
+0.0.0.0 visualwebsiteoptimizer.com
 0.0.0.0 vwo.com
 0.0.0.0 w3counter.com
 0.0.0.0 web-stat.com
