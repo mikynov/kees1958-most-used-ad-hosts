@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/66f1ded683b165ebbac0e76ec8a27df325ee57a6/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/83c0906d864687c55cfb9f2e8ba5a8a0b61b8390/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2026-02-13T21:54:35+00:00
-# Number of converted hosts: 1738
+# Date: 2026-02-27T21:46:37+00:00
+# Number of converted hosts: 1747
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -64,6 +64,7 @@
 0.0.0.0 ad-srv-track.com
 0.0.0.0 ad.admitad.com
 0.0.0.0 ad.gt
+0.0.0.0 ad.sxp.smartclip.net
 0.0.0.0 adabra.com
 0.0.0.0 adara.com
 0.0.0.0 adblade.com
@@ -82,6 +83,7 @@
 0.0.0.0 adku.co
 0.0.0.0 adku.com
 0.0.0.0 admantx.com
+0.0.0.0 adnami.io
 0.0.0.0 adnxs.com
 0.0.0.0 adobetag.com
 0.0.0.0 adoftheyear.com
@@ -109,6 +111,7 @@
 0.0.0.0 advangelists.com
 0.0.0.0 advconversion.com
 0.0.0.0 advertising-cdn.dpgmedia.cloud
+0.0.0.0 advertising-module.api.dpgmedia.cloud
 0.0.0.0 advertising.com
 0.0.0.0 adwstats.com
 0.0.0.0 adxcel-ec2.com
@@ -219,6 +222,8 @@
 0.0.0.0 barilliance.net
 0.0.0.0 basicstat.com
 0.0.0.0 basilic.io
+0.0.0.0 bat.bing.com
+0.0.0.0 bat.bing.net
 0.0.0.0 batch.com
 0.0.0.0 bdash-cloud.com
 0.0.0.0 beanstalkdata.com
@@ -282,6 +287,7 @@
 0.0.0.0 browser-statistik.de
 0.0.0.0 browser-update.org
 0.0.0.0 btbuckets.com
+0.0.0.0 btloader.com
 0.0.0.0 bttrack.com
 0.0.0.0 btttag.com
 0.0.0.0 bubblestat.com
@@ -1401,6 +1407,7 @@
 0.0.0.0 softonic-analytics.net
 0.0.0.0 sokrati.com
 0.0.0.0 sometrics.com
+0.0.0.0 sophi.io
 0.0.0.0 sophus3.com
 0.0.0.0 spectate.com
 0.0.0.0 speed-trap.com
@@ -1488,6 +1495,7 @@
 0.0.0.0 taplytics.com
 0.0.0.0 taps.io
 0.0.0.0 tapstream.com
+0.0.0.0 target.digitalaudience.io
 0.0.0.0 targetfuel.com
 0.0.0.0 tatsumi-sys.jp
 0.0.0.0 tcactivity.net
@@ -1510,6 +1518,7 @@
 0.0.0.0 thecounter.com
 0.0.0.0 thesearchagency.net
 0.0.0.0 tinycounter.com
+0.0.0.0 tinypass.com
 0.0.0.0 tiser.com.au
 0.0.0.0 tkqlhce.com
 0.0.0.0 tl813.com
