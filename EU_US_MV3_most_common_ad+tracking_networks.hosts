@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/83c0906d864687c55cfb9f2e8ba5a8a0b61b8390/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/4bd4c536d69a68b08acb28463f6e9428c8948f52/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2026-02-27T21:46:37+00:00
-# Number of converted hosts: 1747
+# Date: 2026-03-20T21:48:11+00:00
+# Number of converted hosts: 1766
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -80,7 +80,6 @@
 0.0.0.0 adinsight.co.kr
 0.0.0.0 adinsight.com
 0.0.0.0 adjust.com
-0.0.0.0 adku.co
 0.0.0.0 adku.com
 0.0.0.0 admantx.com
 0.0.0.0 adnami.io
@@ -91,13 +90,17 @@
 0.0.0.0 adpies.com
 0.0.0.0 adrizer.com
 0.0.0.0 adrta.com
+0.0.0.0 ads-dev.pinterest.com
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 ads-api.twitter.com
 0.0.0.0 ads-sg.tiktok.com
 0.0.0.0 ads.linkedin.com
+0.0.0.0 ads.facebook.com
 0.0.0.0 ads.pinterest.com
 0.0.0.0 ads.tiktok.com
+0.0.0.0 ads.reddit.com
 0.0.0.0 adsafeprotected.com
+0.0.0.0 adsdk.yandex.ru
 0.0.0.0 adsave.co
 0.0.0.0 adsensedetective.com
 0.0.0.0 adspsp.com
@@ -110,14 +113,17 @@
 0.0.0.0 advanced-web-analytics.com
 0.0.0.0 advangelists.com
 0.0.0.0 advconversion.com
+0.0.0.0 advertising-api-eu.amazon.com
 0.0.0.0 advertising-cdn.dpgmedia.cloud
 0.0.0.0 advertising-module.api.dpgmedia.cloud
 0.0.0.0 advertising.com
+0.0.0.0 advertising.twitter.com
 0.0.0.0 adwstats.com
 0.0.0.0 adxcel-ec2.com
 0.0.0.0 adyapper.com
 0.0.0.0 affilae.com
 0.0.0.0 affiliateedge.eu
+0.0.0.0 affiliationjs.s3.amazonaws.com
 0.0.0.0 affinesystems.com
 0.0.0.0 affinitymatrix.com
 0.0.0.0 affistats.com
@@ -151,11 +157,15 @@
 0.0.0.0 analoganalytics.com
 0.0.0.0 analytically.net
 0.0.0.0 analytics-sg.tiktok.com
+0.0.0.0 analytics.facebook.com
 0.0.0.0 analytics.google.com
 0.0.0.0 analytics.jst.ai
+0.0.0.0 analytics.mobile.yandex.net
+0.0.0.0 analytics.pinterest.com
 0.0.0.0 analytics.pointdrive.linkedin.com
 0.0.0.0 analytics.s3.amazonaws.com
 0.0.0.0 analytics.tiktok.com
+0.0.0.0 analytics.yahoo.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
 0.0.0.0 analyticswizard.com
 0.0.0.0 angelfishstats.com
@@ -163,6 +173,7 @@
 0.0.0.0 anrdoezrs.net
 0.0.0.0 apexstats.com
 0.0.0.0 apextwo.com
+0.0.0.0 api-hotjar.com
 0.0.0.0 api.iterable.com
 0.0.0.0 apicit.net
 0.0.0.0 apollofind.com
@@ -171,6 +182,7 @@
 0.0.0.0 app.pendo.io
 0.0.0.0 appboycdn.com
 0.0.0.0 appcast.io
+0.0.0.0 appmetrica.yandex.com
 0.0.0.0 appnexus.com
 0.0.0.0 aprtx.com
 0.0.0.0 aqtracker.com
@@ -431,6 +443,7 @@
 0.0.0.0 cya2.net
 0.0.0.0 cyberanalytics.nl
 0.0.0.0 d-collector.jennifersoft.com
+0.0.0.0 d.reddit.com
 0.0.0.0 d41.co
 0.0.0.0 dacounter.com
 0.0.0.0 dapxl.com
@@ -558,6 +571,7 @@
 0.0.0.0 experianmarketingservices.digital
 0.0.0.0 explore-123.com
 0.0.0.0 exposebox.com
+0.0.0.0 extmaps-api.yandex.net
 0.0.0.0 extole.com
 0.0.0.0 extrawatch.com
 0.0.0.0 extreme-dm.com
@@ -724,6 +738,7 @@
 0.0.0.0 hostip.info
 0.0.0.0 hotjar.com
 0.0.0.0 hotjar.io
+0.0.0.0 hotjar-analytics.com
 0.0.0.0 hotrank.com.tw
 0.0.0.0 hs-analytics.net
 0.0.0.0 hsadspixel.net
@@ -941,6 +956,7 @@
 0.0.0.0 mbww.com
 0.0.0.0 measuremap.com
 0.0.0.0 measurementapi.com
+0.0.0.0 media.fastclick.net
 0.0.0.0 media.net
 0.0.0.0 media01.eu
 0.0.0.0 mediaarmor.com
@@ -1261,6 +1277,7 @@
 0.0.0.0 repixel.co
 0.0.0.0 replaybird.com
 0.0.0.0 requestmetrics.com
+0.0.0.0 rereddit.com
 0.0.0.0 res-x.com
 0.0.0.0 research-tool.com
 0.0.0.0 responsetap.com
@@ -1703,6 +1720,7 @@
 0.0.0.0 whosclickingwho.com
 0.0.0.0 wickedreports.com
 0.0.0.0 widerplanet.com
+0.0.0.0 widgets.pinterest.com
 0.0.0.0 wikia-beacon.com
 0.0.0.0 wiredminds.de
 0.0.0.0 wisetrack.net
@@ -1732,6 +1750,7 @@
 0.0.0.0 xxxcounter.com
 0.0.0.0 y-track.com
 0.0.0.0 yamanoha.com
+0.0.0.0 yandexadexchange.net
 0.0.0.0 yandexmetrica.com
 0.0.0.0 yaudience.com
 0.0.0.0 ybotvisit.com
