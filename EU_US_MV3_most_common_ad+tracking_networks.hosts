@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/d29fb4fc0c8510dc69631714eae90b31f452050b/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/1a30cbf9fea7ea0e414a6567467ee4636710070d/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2026-06-12T22:50:36+00:00
-# Number of converted hosts: 322
+# Date: 2026-07-10T22:28:16+00:00
+# Number of converted hosts: 323
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -280,6 +280,7 @@
 0.0.0.0 themoneytizer.com
 0.0.0.0 tiqcdn.com
 0.0.0.0 tradedoubler.com
+0.0.0.0 trafficforce.com
 0.0.0.0 trafficjunky.com
 0.0.0.0 trafficstars.com
 0.0.0.0 treasuredata.com
