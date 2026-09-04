@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/4be03223408a902fbeb71a1b43b266ae82710c98/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/05193faa6d0eeb933680bff47b66b8b765c71711/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2026-08-29T03:11:45+00:00
-# Number of converted hosts: 428
+# Date: 2026-09-04T23:05:08+00:00
+# Number of converted hosts: 426
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -351,8 +351,6 @@
 0.0.0.0 hm.baidu.com
 0.0.0.0 stat.baidustatic.com
 0.0.0.0 cnzz.com
-0.0.0.0 events.reddit.com
-0.0.0.0 trk.pinterest.com
 0.0.0.0 bluekai.com
 0.0.0.0 clarity.ms
 0.0.0.0 criteo.com
