@@ -1,9 +1,9 @@
 # Title: mikynov/kees1958-most-used-ad-hosts/EU_US_MV3_most_common_ad+tracking_networks.hosts
 #
-# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/05193faa6d0eeb933680bff47b66b8b765c71711/EU_US_MV3_most_common_ad%2Btracking_networks.txt
+# This hosts file is generated from https://github.com/Kees1958/W3C_annual_most_used_survey_blocklist/blob/0b69c04234ccf96af86f761f7e48803868febae4/EU_US_MV3_most_common_ad%2Btracking_networks.txt
 #
-# Date: 2026-09-04T23:05:08+00:00
-# Number of converted hosts: 426
+# Date: 2026-09-11T23:22:01+00:00
+# Number of converted hosts: 465
 #
 # The latest version of this file: https://raw.githubusercontent.com/mikynov/kees1958-most-used-ad-hosts/master/EU_US_MV3_most_common_ad%2Btracking_networks.hosts
 #
@@ -20,7 +20,9 @@
 0.0.0.0 5gvci.com
 0.0.0.0 a-ads.com
 0.0.0.0 acuityads.com
+0.0.0.0 ad-maven.com
 0.0.0.0 ad-score.com
+0.0.0.0 ad.gt
 0.0.0.0 adabundle.com
 0.0.0.0 adalliance.io
 0.0.0.0 adapex.io
@@ -30,9 +32,9 @@
 0.0.0.0 adcdnx.com
 0.0.0.0 adcell.de
 0.0.0.0 adcolony.com
+0.0.0.0 adcombo.com
 0.0.0.0 adform.com
 0.0.0.0 adgibbon.com
-0.0.0.0 ad.gt
 0.0.0.0 adhese.com
 0.0.0.0 adhigh.net
 0.0.0.0 adition.com
@@ -40,6 +42,8 @@
 0.0.0.0 adkaora.space
 0.0.0.0 adloox.com
 0.0.0.0 adlpo.com
+0.0.0.0 admachine.io
+0.0.0.0 admanmedia.com
 0.0.0.0 admarketplace.net
 0.0.0.0 admixer.net
 0.0.0.0 admob.com
@@ -48,14 +52,18 @@
 0.0.0.0 adnium.com
 0.0.0.0 adnuntius.com
 0.0.0.0 adnxs.com
+0.0.0.0 adoperator.com
+0.0.0.0 adprofex.com
 0.0.0.0 adpushup.com
 0.0.0.0 adroll.com
 0.0.0.0 adsafeprotected.com
+0.0.0.0 adscompass.com
 0.0.0.0 adserver.com
 0.0.0.0 adsinteractive.com
 0.0.0.0 adskeeper.com
 0.0.0.0 adsnative.com
 0.0.0.0 adsrvr.org
+0.0.0.0 adsterra.com
 0.0.0.0 adswizz.com
 0.0.0.0 adtech.com
 0.0.0.0 adtng.com
@@ -71,6 +79,7 @@
 0.0.0.0 adxbid.info
 0.0.0.0 adxpansion.com
 0.0.0.0 adxvalue.com
+0.0.0.0 adxxx.com
 0.0.0.0 adyard.de
 0.0.0.0 adyoulike.com
 0.0.0.0 adzcentral.com
@@ -96,6 +105,7 @@
 0.0.0.0 bannerconnect.com
 0.0.0.0 beachfront.com
 0.0.0.0 behavioralengine.com
+0.0.0.0 betterads.com
 0.0.0.0 betteradsystem.com
 0.0.0.0 bidmatic.io
 0.0.0.0 bidr.io
@@ -117,6 +127,9 @@
 0.0.0.0 casalemedia.com
 0.0.0.0 cedato.com
 0.0.0.0 chartboost.com
+0.0.0.0 clickadilla.com
+0.0.0.0 clickadu.com
+0.0.0.0 clickaine.com
 0.0.0.0 clickcease.com
 0.0.0.0 connectad.io
 0.0.0.0 connextra.com
@@ -143,17 +156,21 @@
 0.0.0.0 engagebdr.com
 0.0.0.0 epsilon.com
 0.0.0.0 ero-advertising.com
+0.0.0.0 eroadvertising.com
+0.0.0.0 evadav.com
 0.0.0.0 everesttech.net
 0.0.0.0 ewaydirect.com
 0.0.0.0 exelate.com
 0.0.0.0 exoclick.com
 0.0.0.0 exosrv.com
+0.0.0.0 exoticads.com
 0.0.0.0 fastclick.com
 0.0.0.0 fastclick.net
 0.0.0.0 flashtalking.com
 0.0.0.0 flurry.com
 0.0.0.0 fyber.com
 0.0.0.0 gadsbee.com
+0.0.0.0 galaksion.com
 0.0.0.0 genesismedia.com
 0.0.0.0 genesismediaus.com
 0.0.0.0 geniuslinkcdn.com
@@ -165,6 +182,7 @@
 0.0.0.0 greystripe.com
 0.0.0.0 gumgum.com
 0.0.0.0 hightrafficads.com
+0.0.0.0 hilltopads.com
 0.0.0.0 hilltopads.net
 0.0.0.0 hitslink.com
 0.0.0.0 hitsprocessor.com
@@ -197,14 +215,19 @@
 0.0.0.0 lucidmedia.com
 0.0.0.0 marketingcloudfx.com
 0.0.0.0 mathtag.com
+0.0.0.0 maxbounty.com
 0.0.0.0 media.net
 0.0.0.0 mediamath.com
 0.0.0.0 mediaplex.com
 0.0.0.0 mgid.com
 0.0.0.0 moat.com
 0.0.0.0 moatads.com
+0.0.0.0 mobidea.com
+0.0.0.0 mondiad.com
+0.0.0.0 monetag.com
 0.0.0.0 mopub.com
 0.0.0.0 myads.net
+0.0.0.0 mybid.io
 0.0.0.0 mypagerank.net
 0.0.0.0 narrativ.com
 0.0.0.0 narrative.io
@@ -215,9 +238,11 @@
 0.0.0.0 nocodelytics.com
 0.0.0.0 nurago.com
 0.0.0.0 nurago.de
+0.0.0.0 olavivo.com
 0.0.0.0 omniture.com
 0.0.0.0 omtrdc.net
 0.0.0.0 onaudience.com
+0.0.0.0 onclicka.com
 0.0.0.0 onclickads.net
 0.0.0.0 openadsnetwork.com
 0.0.0.0 opentracker.net
@@ -250,6 +275,8 @@
 0.0.0.0 pswec.com
 0.0.0.0 publicidees.com
 0.0.0.0 pubmatic.com
+0.0.0.0 push.house
+0.0.0.0 pushground.com
 0.0.0.0 pushnami.com
 0.0.0.0 qksz.com
 0.0.0.0 qksz.net
@@ -261,10 +288,13 @@
 0.0.0.0 reporo.net
 0.0.0.0 retargetly.com
 0.0.0.0 revcontent.com
+0.0.0.0 revenuehits.com
 0.0.0.0 rhombusads.com
 0.0.0.0 rhythmone.com
 0.0.0.0 richads.com
+0.0.0.0 richpush.co
 0.0.0.0 rlcdn.com
+0.0.0.0 roiads.co
 0.0.0.0 rtbstream.com
 0.0.0.0 rubiconproject.com
 0.0.0.0 rundsp.com
@@ -294,13 +324,20 @@
 0.0.0.0 teads.tv
 0.0.0.0 theadex.com
 0.0.0.0 themoneytizer.com
+0.0.0.0 traffea.com
+0.0.0.0 trafficfactory.com
 0.0.0.0 trafficforce.com
 0.0.0.0 trafficjunky.com
+0.0.0.0 trafficnomads.com
 0.0.0.0 trafficstars.com
+0.0.0.0 traforama.com
 0.0.0.0 treasuredata.com
 0.0.0.0 tremorhub.com
 0.0.0.0 triplelift.com
 0.0.0.0 tsyndicate.com
+0.0.0.0 tubecorp.com
+0.0.0.0 tubecorporate.com
+0.0.0.0 twinred.com
 0.0.0.0 ubermedia.com
 0.0.0.0 undertone.com
 0.0.0.0 unityads.unity3d.com
@@ -308,6 +345,7 @@
 0.0.0.0 valueclick.com
 0.0.0.0 valueclick.net
 0.0.0.0 valueclickmedia.com
+0.0.0.0 veedx.com
 0.0.0.0 vertamedia.com
 0.0.0.0 videocdnmetrika.com
 0.0.0.0 vidverto.io
@@ -324,6 +362,7 @@
 0.0.0.0 yoads.net
 0.0.0.0 zedo.com
 0.0.0.0 zemanta.com
+0.0.0.0 zeropark.com
 0.0.0.0 ads.google.com
 0.0.0.0 adservice.google.com
 0.0.0.0 analytics.google.com
